@@ -1,0 +1,50 @@
+{
+  "name": "mock-js",
+  "title": "Mock.js",
+  "description": "修复Mockjs某些responseType, upload等已知问题",
+  "version": "1.1.2",
+  "homepage": "http://mockjs.com/",
+  "keywords": [
+    "mock",
+    "mockJSON",
+    "mockAjax"
+  ],
+  "author": "qs-coder",
+  "dependencies": {
+    "commander": "*",
+    "gulp-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-istanbul": "^0.10.4",
+    "gulp-jshint": "^2.1.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-mocha-phantomjs": "^0.10.1",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "webpack": "^1.12.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qs-coder/mock-js.git"
+  },
+  "main": "./dist/mock.js",
+  "scripts": {
+    "test": "gulp mocha",
+    "coveralls": "gulp coveralls"
+  },
+  "bin": {
+    "random": "bin/random"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/qs-coder/mock-js/master/LICENSE"
+    }
+  ],
+  "spm": {
+    "main": "dist/mock.js"
+  }
+}
