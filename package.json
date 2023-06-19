@@ -2,7 +2,7 @@
   "name": "@qs-coder/qs-mock",
   "title": "Mock.js",
   "description": "修复Mockjs某些responseType, upload等已知问题",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "http://mockjs.com/",
   "keywords": [
     "mock",
@@ -15,7 +15,7 @@
     "gulp-cli": "^2.3.0"
   },
   "devDependencies": {
-    "bumpp": "^9.1.1",
+    "bumpp": "^7.1.1",
     "gulp": "^3.9.0",
     "gulp-connect": "^5.7.0",
     "gulp-coveralls": "^0.1.4",
@@ -35,7 +35,7 @@
   "scripts": {
     "test": "gulp mocha",
     "coveralls": "gulp coveralls",
-    "release": "bumpp -r && pnpm -r publish --access public"
+    "release": "bumpp && npm publish --access public"
   },
   "bin": {
     "random": "bin/random"
