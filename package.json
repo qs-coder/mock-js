@@ -1,13 +1,16 @@
 {
-  "name": "@qs-coder/qs-mock",
+  "name": "@qs-coder/mockjs",
   "title": "Mock.js",
   "description": "修复Mockjs某些responseType, upload等已知问题",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "homepage": "http://mockjs.com/",
   "keywords": [
     "mock",
     "mockJSON",
     "mockAjax"
+  ],
+  "files": [
+    "dist"
   ],
   "author": "qs-coder",
   "dependencies": {
