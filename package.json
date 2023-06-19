@@ -2,7 +2,7 @@
   "name": "@qs-coder/mockjs",
   "title": "Mock.js",
   "description": "修复Mockjs某些responseType, upload等已知问题",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "http://mockjs.com/",
   "keywords": [
     "mock",
